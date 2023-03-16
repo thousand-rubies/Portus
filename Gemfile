@@ -4,8 +4,8 @@ source "https://rubygems.org"
 
 gem "active_record_union"
 gem "base32"
-gem "devise"
-gem "font-awesome-rails"
+gem "devise", ">= 4.7.0"
+gem "font-awesome-rails", ">= 4.7.0.6"
 gem "grape"
 gem "grape-entity"
 gem "grape-swagger"
@@ -22,7 +22,7 @@ gem "omniauth-openid"
 gem "omniauth_openid_connect"
 gem "public_activity", "~> 1.6.3"
 gem "pundit"
-gem "rails", "~> 5.2.0"
+gem "rails", "~> 6.1.7", ">= 6.1.7.3"
 gem "redcarpet"
 gem "sassc-rails"
 gem "search_cop"
@@ -67,7 +67,7 @@ group :assets do
 end
 
 group :development do
-  gem "annotate"
+  gem "annotate", ">= 2.7.5"
   gem "git-review", require: false
   gem "guard", require: false
   gem "guard-rspec", require: false
