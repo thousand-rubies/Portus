@@ -97,7 +97,7 @@ group :development, :test do
 end
 
 group :test do
-  gem "capybara"
+  gem "capybara", ">= 3.14.0"
   gem "capybara-screenshot"
   gem "chromedriver-helper"
   gem "docker-api"
