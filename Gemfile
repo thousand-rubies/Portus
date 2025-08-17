@@ -13,16 +13,16 @@ gem "grape-swagger-entity"
 gem "gravatar_image_tag"
 gem "hashie-forbidden_attributes"
 gem "jwt"
-gem "kaminari"
+gem "kaminari", ">= 1.2.0"
 gem "net-ldap"
 gem "omniauth-github"
 gem "omniauth-gitlab"
 gem "omniauth-google-oauth2"
 gem "omniauth-openid"
 gem "omniauth_openid_connect"
-gem "public_activity", "~> 1.6.3"
+gem "public_activity", "~> 1.6.4"
 gem "pundit"
-gem "rails", "~> 5.2.0"
+gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 gem "redcarpet"
 gem "sassc-rails"
 gem "search_cop"
@@ -67,14 +67,14 @@ group :assets do
 end
 
 group :development do
-  gem "annotate"
+  gem "annotate", ">= 3.2.0"
   gem "git-review", require: false
   gem "guard", require: false
   gem "guard-rspec", require: false
   gem "guard-rubocop", require: false
   gem "pry-rails"
   gem "rack-mini-profiler", require: false
-  gem "rails-erd"
+  gem "rails-erd", ">= 1.6.0"
   gem "web-console"
 end
 
