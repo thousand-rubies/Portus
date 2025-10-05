@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "active_record_union"
+gem "active_record_union", ">= 1.4.0"
 gem "base32"
 gem "devise"
 gem "font-awesome-rails"
